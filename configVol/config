@@ -1,0 +1,8 @@
+Host sshreverseproxy
+	HostName 
+	User 
+	Port 
+	IdentityFile /root/.ssh/
+	RemoteForward 8080 127.0.0.1:80
+	ServerAliveInterval 300
+	ServerAliveCountMax 2
